@@ -1,0 +1,46 @@
+@import "base/vars";
+@import "base/fonts";
+@import "modules/normalize";
+@import "base/icons";
+
+@import "modules/body";
+@import "modules/container";
+@import "modules/header";
+@import "modules/logo";
+@import "modules/main-menu";
+@import "modules/menu-button";
+@import "modules/hero";
+@import "modules/about-me";
+@import "modules/social";
+@import "modules/about";
+@import "modules/main-footer";
+@import "modules/gallery";
+@import "modules/form";
+@import "modules/options";
+
+
+a {
+    text-decoration: none;
+}
+
+.page-name {
+    // box model  
+    padding-bottom: 0;
+
+    // typography
+    color: #f1f1f1;
+    font-family: $fontSerifCaption;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+
+    @media (min-width: $tablet) {
+        // typography
+        font-size: 28px;
+    }
+
+    @media (min-width: $desktop) {
+        // typography
+        font-size: 32px;
+    }
+}
