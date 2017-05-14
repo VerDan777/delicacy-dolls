@@ -1,0 +1,19 @@
+{
+  "name": "delicacy-dolls",
+  "version": "1.0.0",
+  "description": "Проект сайта кукольного мастера Алины Ивановой",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerDan777/delicacy-dolls.git"
+  },
+  "author": "Юрий Куренков",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerDan777/delicacy-dolls/issues"
+  },
+  "homepage": "https://github.com/VerDan777/delicacy-dolls#readme"
+}
